@@ -1,4 +1,5 @@
-#!/bin/sh -l
+#!/bin/sh
+env | grep INPUT
 
 NAME="$INPUT_WHO_TO_GREET"
 
