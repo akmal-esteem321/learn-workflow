@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: ./
+      - uses: ./study-1 #make sure pathing is correct, ./ is root
         with:
           who-to-greet: 'Claude'
