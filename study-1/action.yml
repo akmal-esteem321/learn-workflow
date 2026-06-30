@@ -1,7 +1,7 @@
 name: 'Greeting Action'
 description: 'Greets someone'
 inputs:
-  who-to-greet:
+  who_to_greet:
     description: 'Who to greet'
     required: true
     default: 'World'
